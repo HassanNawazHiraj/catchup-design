@@ -1,4 +1,6 @@
-
+body {
+background: #E9E9E9;
+}
 
     .navigation{
         
@@ -12,9 +14,7 @@
   
 
 /*  Pinterest like posts css*/    
-body {
-background: #E9E9E9;
-}
+
 #blog-landing {
 margin-top: 81px;
 position: relative;
