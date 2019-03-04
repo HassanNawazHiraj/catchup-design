@@ -19,6 +19,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
+
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -40,12 +41,18 @@
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</li>
+				
+				
 			</ul>
-			<form class="form-inline mt-2 mt-md-0">
-				<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
-			<button type="button" class="btn btn-primary">
+			<form class="navbar-form pull-left col-sm-4" style="float:right;">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search"/>
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn btn-success">Search</button>
+                        </span> 
+                    </div>
+                </form>
+			<button type="button" class="btn btn-success ml-2">
 				Notifications <span class="badge badge-light">6</span>
 			</button>
 		</div>
