@@ -48,3 +48,41 @@ img {
 }
 
 /*pinterest ends here*/
+/*notifications button starts*/
+
+.bbutton {
+  color: white;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  padding: 1px 6px; /* Add some padding so it looks nice */
+}
+
+/* Make the badge float in the top right corner of the button */
+.button__badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+ 
+  padding: 2px 3px;
+  font-size: 10px;
+  
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top: 0;
+  right: 0;
+}
+/*notifications button ends*/
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 5px;
+   background-color: #CBD3EE;
+   color: white;
+   text-align: center;
+   height: 40px;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  color:black;
+}
