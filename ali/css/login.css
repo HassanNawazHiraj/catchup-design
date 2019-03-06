@@ -5,6 +5,7 @@ body {
     
     margin-top: 3%;
     padding: 3%;
+
 }
 .register-left{
     text-align: center;
@@ -95,4 +96,18 @@ body {
     margin-top: 8%;
     margin-bottom: -15%;
     color: #495057;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 5px;
+   background-color: #CBD3EE;
+   color: white;
+   text-align: center;
+   height: 40px;
+   position: fixed;
+  left: 0;
+  bottom: 0;
 }
