@@ -221,7 +221,7 @@ body {
             margin-left: 8.07rem
         }
         .side-right{
-            margin-top: 4rem;
+            margin-top: 1rem;
             overflow-x: hidden;
             overflow-y: auto;
             height: calc(100vh - 7.5rem);
