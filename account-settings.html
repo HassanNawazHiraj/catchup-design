@@ -25,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="home.html">
                         <i class="fa fa-home"></i>
                         Home
@@ -105,7 +105,7 @@
 <div class="row">
             <div class="col-md-11 ml-5">
             <div class="alert alert-success" role="alert">
-              Your profile was successfully updated!
+              Your account settings was successfully updated!
           </div>
       </div>
       </div>
@@ -123,8 +123,8 @@
         </div>
         <div id="collapse1" class="panel-collapse collapse in">
             <ul class="list-group">
-                <li class="list-group-item"> <b>Profile</b> </li>
-                <li class="list-group-item"> <a href="account-settings.html">Account Settings</a> </li>
+                <li class="list-group-item"> <a href="settings.html">Profile</a> </li>
+                <li class="list-group-item"> <b>Account Settings</b> </li>
                 <li class="list-group-item"> <a href="security-settings.html">Security</a> </li>
             </ul>
         </div>
@@ -136,31 +136,34 @@
 <div class="col col-md-9">
     <div class="row">
         <div class="col col-md-10 card">
-            <h4>Profile Settings</h4>
+            <h4>Account Settings</h4>
+
             <form>
               <div class="form-group">
-                <label for="First Name">First Name</label>
-                <input type="text" class="form-control" id="fname" name="fname" placeholder="Hassan">
+                <label for="First Name">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="test@email.com">
                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
-                <label for="Last Name">Last Name</label>
-                <input type="text" class="form-control" id="fname" name="lname" placeholder="Nawaz">
-                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-            </div>
-
-            <div class="form-group">
-                <label for="Last Name">Date of birth</label>
-                <input type="date" class="form-control" id="dob" name="dob" >
+                <label for="Last Name">Username</label>
+                <input type="text" class="form-control" id="uname" name="uname" placeholder="user33548">
                 <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
 
             <div class="form-group">
-                <label for="Last Name">Bio</label>
+                <label for="Last Name">Mobile number</label>
+                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="0300XXXXXXX">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+
+            <div class="form-group">
+                <label for="Last Name">Deactivate account</label>
                 <textarea class="form-control" id="bio" name="bio"> </textarea>
-                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                 <small id="deactivateHelp" class="form-text text-muted">Please type a reason for deactivating your account</small>
+                 <button class="btn btn-danger pull-right">Deactivate</button>
             </div>
-            
+            <br>
+            <br>
             <button type="submit" class="btn btn-primary">Save</button>
             <br>
             <input type="hidden"></button> <!-- space fix -->
